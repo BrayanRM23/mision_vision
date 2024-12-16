@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Background */
+body {
+    background: black;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+/* Background Image */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content Box */
+.content {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+.header h1 {
+    font-size: 2.5em;
+    color: #ff4a57;
+    margin-bottom: 20px;
+}
+
+/* Mission and Vision */
+.mission, .vision {
+    margin: 20px 0;
+}
+
+.mission h2, .vision h2 {
+    font-size: 1.8em;
+    color: #ff4a57;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.mission p, .vision p {
+    font-size: 1.2em;
+    color: #eaeaea;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 0.9em;
+    color: #b3b3b3;
+}
